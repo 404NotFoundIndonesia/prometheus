@@ -13,6 +13,17 @@
             title: 'Dashboard',
             href: '/dashboard',
             icon: LayoutGrid,
+            isActive: route().current('dashboard'),
+        },
+        {
+            title: 'Header',
+            isLabel: true,
+        },
+        {
+            title: 'Not Dashboard',
+            href: '/dashboard',
+            icon: LayoutGrid,
+            isActive: route().current('profile.edit'),
         },
     ];
 
