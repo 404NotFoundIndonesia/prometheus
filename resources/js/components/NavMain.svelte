@@ -18,7 +18,7 @@
             {:else}
                 <SidebarMenuItem>
                     <Link href={item.href ?? '#'} class="block w-full">
-                        <SidebarMenuButton isActive={item.isActive}>
+                        <SidebarMenuButton isActive={item.isActive} class="cursor-pointer">
                             {#if item.icon}
                                 {@const Icon = item.icon}
                                 <Icon class="h-4 w-4 shrink-0" />
